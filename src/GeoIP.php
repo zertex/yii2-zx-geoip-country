@@ -31,7 +31,7 @@ class GeoIP extends Component
      */
     public function init() 
     {
-        $db = Yii::getAlias('@vendor/zertex/yii2-zx-country-db/country.mmdb');
+        $db = Yii::getAlias('@vendor/zertex/yii2-zx-country-db/GeoLite2-Country.mmdb');
         $this->session = Yii::$app->session;
         $this->reader = new Reader($db);
         parent::init();

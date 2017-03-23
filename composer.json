@@ -3,7 +3,7 @@
     "description": "Yii 2 GeoIP extension. Returns country of current or specified IP (uses MaxMind's GeoIP2 databases)",
     "keywords": ["geoip", "geolocation", "maxmind", "yii2"],
     "type": "yii2-extension",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "MIT",
     "authors": [
         {
