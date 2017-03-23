@@ -1,28 +1,33 @@
 {
-  "name": "zertex/yii2-zx-geoip-country",
-  "description": "Yii 2 GeoIP extension. Returns country of current or specified IP (uses MaxMind's GeoIP2 databases)",
-  "keywords": ["geoip", "geolocation", "maxmind", "yii2"],
-  "type": "yii2-extension",
-  "version": "1.0.1",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Egorka",
-      "email": "info@zertex.ru"
+    "name": "zertex/yii2-zx-geoip-country",
+    "description": "Yii 2 GeoIP extension. Returns country of current or specified IP (uses MaxMind's GeoIP2 databases)",
+    "keywords": ["geoip", "geolocation", "maxmind", "yii2"],
+    "type": "yii2-extension",
+    "version": "1.0.1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Egorka",
+            "email": "info@zertex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": ">=2.0.0",
+        "maxmind-db/reader": "~1.0",
+        "zertex/yii2-zx-country-db": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "zertex\\GeoIP\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
     }
-  ],
-  "require": {
-    "php": ">=5.4.0",
-    "yiisoft/yii2": ">=2.0.0",
-    "maxmind-db/reader": "~1.0",
-    "zertex/yii2-zx-country-db": "*"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "~4.4"
-  },
-  "autoload": {
-    "psr-4": {
-      "zertex\\GeoIP\\": "src/"
-    }
-  }
 }
